@@ -1,0 +1,43 @@
+{
+  "projectname": "axios-uniapp",
+  "description": "项目公共配置文件",
+  "miniprogramRoot": "dist/dev/mp-weixin/",
+  "appid": "",
+  "compileType": "miniprogram",
+  "libVersion": "widelyUsed",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "condition": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "ignoreUploadUnusedFiles": true,
+    "uglifyFileName": true,
+    "minifyWXML": true,
+    "minifyWXSS": true,
+    "compileWorklet": false,
+    "autoAudits": true,
+    "urlCheck": false,
+    "bigPackageSizeSupport": false,
+    "compileHotReLoad": true,
+    "useCompilerPlugins": [
+      "typescript",
+      "sass"
+    ],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "srcMiniprogramRoot": "dist/dev/mp-weixin/"
+}
